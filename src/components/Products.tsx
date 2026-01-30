@@ -6,7 +6,7 @@ const products = [
     category: 'Energy Product',
     description: 'High-quality light diesel oil for industrial and commercial applications. Efficient combustion with minimal emissions.',
     specifications: ['Grade: Standard', 'Viscosity: Low', 'Flashpoint: Safe', 'Industrial Grade'],
-    image: 'https://peliswan.com/wp-content/uploads/2024/06/Light-Diesel-Oil_.png',
+    image: 'https://pacificoilindia.com/wp-content/uploads/2022/05/ldolight-diesel-oil.jpg',
   },
   {
     name: 'Bio Fuel II',
