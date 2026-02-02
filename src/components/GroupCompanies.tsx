@@ -122,10 +122,22 @@ export default function GroupCompanies() {
                     </div>
                   </div>
 
-                  <button className="group/btn flex items-center gap-2 text-amber-500 hover:text-amber-400 transition-colors font-medium">
-                    <span>Visit Website</span>
-                    <ExternalLink className="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
-                  </button>
+                  {company.website ? (
+                    <a
+                      href={company.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group/btn flex items-center gap-2 text-amber-500 hover:text-amber-400 transition-colors font-medium"
+                    >
+                      <span>Visit Website</span>
+                      <ExternalLink className="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
+                    </a>
+                  ) : (
+                    <button className="group/btn flex items-center gap-2 text-amber-500 hover:text-amber-400 transition-colors font-medium">
+                      <span>Visit Website</span>
+                      <ExternalLink className="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
+                    </button>
+                  )}
                 </div>
               </div>
             );
