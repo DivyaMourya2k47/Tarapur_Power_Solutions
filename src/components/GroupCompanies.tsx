@@ -9,6 +9,7 @@ const subsidiaries = [
     products: ['LDO', 'HSD', 'Diesel', 'Biofuels'],
     image: 'https://images.pexels.com/photos/5833843/pexels-photo-5833843.jpeg?auto=compress&cs=tinysrgb&w=1200',
     icon: Fuel,
+    website: 'https://tps-petroleums-llp.infinityfreeapp.com/',
   },
   {
     name: 'TPS Industries',
@@ -17,6 +18,7 @@ const subsidiaries = [
     products: ['Industrial Supplies', 'Allied Products', 'Trading Solutions'],
     image: 'https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=1200',
     icon: Factory,
+    website: 'https://divyamourya2k47.github.io/Industries_tps/',
   },
   {
     name: 'Bhavika Pharma',
