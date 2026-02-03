@@ -24,12 +24,12 @@ export default function Footer() {
             <h4 className="text-lg font-bold text-gray-100 mb-4">Group Companies</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-400 hover:text-amber-500 transition-colors">
+                <a href="https://tps-petroleums-llp.infinityfreeapp.com/" className="text-gray-400 hover:text-amber-500 transition-colors">
                   TPS Petroleums LLP
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-amber-500 transition-colors">
+                <a href="https://divyamourya2k47.github.io/Industries_tps/" className="text-gray-400 hover:text-amber-500 transition-colors">
                   TPS Industries
                 </a>
               </li>
